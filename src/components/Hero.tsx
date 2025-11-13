@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed"
 
 const Hero = () => {
   return (
-    <main className="md:bg-amber-200 w-full md:my-12 flex flex-col lg:flex-row items-center gap-4 md:p-4 rounded-2xl">
+    <main className="md:bg-amber-200 w-full md:my-12 my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 rounded-2xl">
         <img src="src/assets/IMG_1368.JPG" className="md:w-[400px] rounded-4xl" alt="" />
         <div className="flex flex-col md:p-4 md:mx-4 m-w-3xl">
             <h1 
