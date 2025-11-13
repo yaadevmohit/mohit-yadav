@@ -3,12 +3,12 @@ import { useState } from 'react';
 
 const NavBar = () => {
   const [active, setActive] = useState("mohit");
-  const links = ["mohit", "projects", "social / images", "resume"];
+  const links = ["mohit", "projects", "social", "resume"];
   return (
     // create a navbar with about, projects, contact, social, resume
     <>
     <nav className="w-full">
-      <ul className='flex space-x-1 md:space-x-6 justify-center p-1 px-2 border rounded-lg w-fit m-auto relative'>
+      <ul className='flex md:space-x-6 justify-center p-1 px-2 border rounded-lg w-fit m-auto relative'>
       {links.map((link) => (
         <li
           key={link}
