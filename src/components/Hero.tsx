@@ -1,9 +1,8 @@
 import { ReactTyped } from "react-typed"
-
 const Hero = () => {
   return (
     <main className="md:bg-amber-200 w-full md:my-12 my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 rounded-2xl">
-        <img src="../assets/IMG_1368.JPG" className="md:w-[400px] rounded-4xl" alt="" />
+        <img src="public/IMG_1368.JPG" className="md:w-[400px] rounded-4xl" alt="" />
         <div className="flex flex-col md:p-4 md:mx-4 m-w-3xl">
             <h1 
               className="text-5xl text-blue-700 md:text-6xl lgmy-4 font-bold w-full m-2 nunitoBold"
