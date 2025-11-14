@@ -24,9 +24,9 @@ const Hero = () => {
             <p 
               className="text-lg  text-left md:mx-2 md:my-4 nunitoRegular"
             >
-                A passionate software developer specializing in building exceptional digital experiences. Currently, I'm focused on developing responsive full-stack web applications.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, rerum quas eius sunt vero saepe quibusdam possimus laborum modi temporibus placeat non aperiam quidem illo ullam voluptate rem quo in!
-              <br />Je sais pas comment faire franchement.
+                Hi, I’m Mohit Yadav, a web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
+                I specialize in building responsive full-stack web applications using modern technologies like React, Node.js, and Tailwind CSS.
+                I love turning ideas into interactive, meaningful solutions that make an impact.
             </p>
             <ul className="flex my-2 mx-auto space-x-3">
               <li className="nunitoBold my-0 underline hover:scale-110"><a href="">linkedIn</a></li>
