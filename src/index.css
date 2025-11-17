@@ -17,6 +17,7 @@
 body, img {
   margin: 0;
   padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @layer components {
@@ -27,6 +28,10 @@ body, img {
 
   .navbarLinks:hover, .navbarLinks:active {
     @apply text-blue-900 underline scale-115 transition-all duration-200;
+  }
+
+  .bgCustomYellow {
+    @apply bg-[#ffd60a]
   }
 
   .nunitoRegular {

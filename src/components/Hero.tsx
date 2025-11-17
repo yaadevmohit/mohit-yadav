@@ -1,30 +1,24 @@
-import { ReactTyped } from "react-typed"
 const Hero = () => {
   return (
-    <main className="md:bg-amber-200 w-full md:my-12 my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 rounded-2xl">
-        <img src="./IMG_1368.JPG" className="md:w-[400px] rounded-4xl" alt="" />
+    <main className="w-full md:my-12 my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 border-[#003566] md:border-4">
+        <img src="./IMG_1368.JPG" className="md:w-[400px]" alt="" />
         <div className="flex flex-col md:p-4 md:mx-4 m-w-3xl">
             <h1 
-              className="text-5xl text-blue-700 md:text-6xl lgmy-4 font-bold w-full m-2 nunitoBold"
+              className="text-5xl text-left text-[#003566] md:text-6xl font-bold w-full"
             >
-              Mohit Yadav
+              Hi, I'm Mohit Yadav.
             </h1>
             
             <h2
-              className="text-2xl text-orange-700 md:text-3xl lgmy-4 font-semibold w-full m-2 nunitoSemiBold" 
+              className="text-2xl text-red-600 text-left md:text-3xl lgmy-4  w-full m-2" 
             >
-              <ReactTyped
-                strings={["Web Developer", "React Expert", "Creative Coder"]}
-                typeSpeed={70}
-                backSpeed={50}
-                loop
-              />
+             Web Developer based in Toronto.  
             </h2>
             <hr />
             <p 
-              className="text-lg  text-left md:mx-2 md:my-4 nunitoRegular"
+              className="text-lg  text-left md:mx-2 md:my-4 nunitoRegular bgCustomYellow p-4"
             >
-                Hi, I’m Mohit Yadav, a web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
+                A web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
                 I specialize in building responsive full-stack web applications using modern technologies like React, Node.js, and Tailwind CSS.
                 I love turning ideas into interactive, meaningful solutions that make an impact.
             </p>
