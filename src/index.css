@@ -30,8 +30,8 @@ body, img {
     @apply text-blue-900 underline scale-115 transition-all duration-200;
   }
 
-  .bgCustomYellow {
-    @apply bg-[#ffd60a]
+  .customYellowBgRing {
+    @apply ring-[#ffc300] ring-2 bg-[#ffd60a] shadow-lg shadow-amber-500  rounded-md
   }
 
   .nunitoRegular {

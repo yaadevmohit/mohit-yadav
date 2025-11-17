@@ -16,16 +16,16 @@ const Hero = () => {
             </h2>
             <hr />
             <p 
-              className="text-lg  text-left md:mx-2 md:my-4 nunitoRegular bgCustomYellow p-4"
+              className="text-lg  text-left md:mx-2 md:my-4 p-4 customYellowBgRing"
             >
                 A web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
                 I specialize in building responsive full-stack web applications using modern technologies like React, Node.js, and Tailwind CSS.
                 I love turning ideas into interactive, meaningful solutions that make an impact.
             </p>
             <ul className="flex my-2 mx-auto space-x-3">
-              <li className="nunitoBold my-0 underline hover:scale-110"><a href="">linkedIn</a></li>
-              <li className="nunitoBold my-0 underline hover:scale-110"><a href="">github</a></li>
-              <li className="nunitoBold my-0 underline hover:scale-110"><a href="">email me</a></li>
+              <li className="my-0 underline hover:scale-110"><a href="">linkedIn</a></li>
+              <li className="my-0 underline hover:scale-110"><a href="">github</a></li>
+              <li className="my-0 underline hover:scale-110"><a href="">email me</a></li>
             </ul>
         </div>
     </main>

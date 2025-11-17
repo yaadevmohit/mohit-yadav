@@ -8,7 +8,7 @@ const NavBar = () => {
     // create a navbar with about, projects, contact, social, resume
     <>
     <nav className="w-full">
-      <ul className='flex md:space-x-6 justify-center p-1 px-2 w-fit m-auto relative border-double border-4 border-[#003566]'>
+      <ul className='flex md:space-x-6 justify-center p-2 px-2 w-fit m-auto relative border-3 border-double border-[#003566]'>
       {links.map((link) => (
         <li
           key={link}
@@ -18,7 +18,7 @@ const NavBar = () => {
           {active === link && (
             <motion.span
               layoutId="active-bg"
-              className="absolute inset-0 border-2 border-[#001d3d] bg-[#ffd60a] text-amber-50"
+              className="absolute inset-0 customYellowBgRing"
               transition={{ type: "spring", stiffness: 500, damping: 30 }}
             ></motion.span>
           )}
