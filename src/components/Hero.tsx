@@ -18,9 +18,9 @@ const Hero = () => {
             <p 
               className="text-lg  text-left md:mx-2 md:my-4 p-4 customYellowBgRing nunitoRegular"
             >
-                A web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
-                I specialize in building responsive full-stack web applications using modern technologies like React, Node.js, and Tailwind CSS.
-                I love turning ideas into interactive, meaningful solutions that make an impact.
+              A web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
+              I specialize in building responsive full-stack web applications using modern technologies like React, Node.js, and Tailwind CSS.
+              I love turning ideas into interactive, meaningful solutions that make an impact.
             </p>
         </div>
     </main>
