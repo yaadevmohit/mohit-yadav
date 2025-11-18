@@ -31,7 +31,7 @@ body, img {
   }
 
   .customYellowBgRing {
-    @apply ring-[#ffc300] ring-2 bg-[#ffd60a] shadow-lg shadow-amber-500  rounded-md
+    @apply ring-[#ffc300] ring-2 bg-[#ffd60a] shadow-lg shadow-amber-500 rounded-lg;
   }
 
   .nunitoRegular {
