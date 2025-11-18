@@ -8,7 +8,7 @@ const NavBar = () => {
     // create a navbar with about, projects, contact, social, resume
     <>
     <nav className="w-full">
-      <ul className='flex md:space-x-6 justify-center p-2 px-2 w-fit m-auto relative border-3 border-double border-[#003566]'>
+      <ul className='flex md:space-x-6 justify-center p-2 px-2 w-fit m-auto relative md:border-3 border-double border-[#003566] nunitoRegular'>
       {links.map((link) => (
         <li
           key={link}
