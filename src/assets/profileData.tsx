@@ -5,5 +5,7 @@ export const heroData = {
     description: `A web developer passionate about crafting fast, accessible, and visually engaging digital experiences.
               I specialize in building responsive full-stack web applications using modern technologies like React, Node.js, and Tailwind CSS.
               I love turning ideas into interactive, meaningful solutions that make an impact.`,
-    profileImg: "./IMG_1368.JPG"
+    profileImg: {src: "./IMG_1368.JPG",
+                alt: "Profile Image"
+    }
 };
