@@ -15,7 +15,7 @@ const Hero = ({ data }: HeroProps) => {
 
 
   return (
-    <main className="w-full md:my-12 my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 border-[#003566] md:border-4">
+    <main className="w-full md:my-12 my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 border-[#003566] md:border-8 rounded-2xl">
       <motion.img
         src={profileImg.src}
         alt={profileImg.alt}
