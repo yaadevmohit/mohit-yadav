@@ -1,12 +1,10 @@
 import Hero from "../components/Hero";
-import NavBar from "../components/Navbar";
-import Footer from "../components/Footer";
+// import NavBar from "../components/Navbar";
+import { heroData } from "../assets/profileData";
 const Home = () => {
   return (
    <>
-    <NavBar />
-    <Hero />
-    <Footer />
+    <Hero data={heroData}/>
   </>
   )
 }

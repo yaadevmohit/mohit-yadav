@@ -5,7 +5,6 @@ const NavBar = () => {
   const [active, setActive] = useState("mohit");
   const links = ["mohit", "projects", "social", "resume"];
   return (
-    // create a navbar with about, projects, contact, social, resume
     <>
     <nav className="w-full">
       <ul className='flex md:space-x-6 justify-center pb-2 w-fit mx-auto relative nunitoRegular'>
@@ -19,7 +18,7 @@ const NavBar = () => {
             <motion.span
               layoutId="active-bg"
               className="absolute inset-0 customYellowBgRing"
-              transition={{ type: "spring", stiffness: 500, damping: 30 }}
+              transition={{ type: "spring", stiffness: 500, damping: 35 }}
             ></motion.span>
           )}
           <a className={`relative z-10 ${active === link && `text-[#003566]`}`}>{link}</a>
