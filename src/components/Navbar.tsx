@@ -1,7 +1,7 @@
 import {motion} from 'framer-motion'
 import { useState } from 'react';
 
-const NavBar = () => {
+const Navbar = () => {
   const [active, setActive] = useState("mohit");
   const links = ["mohit", "projects", "social"];
   return (
@@ -31,4 +31,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
