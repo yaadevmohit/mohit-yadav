@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const NavBar = () => {
   const [active, setActive] = useState("mohit");
-  const links = ["mohit", "projects", "social", "resume"];
+  const links = ["mohit", "projects", "social"];
   return (
     // create a navbar with about, projects, contact, social, resume
     <>
