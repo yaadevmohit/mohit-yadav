@@ -8,8 +8,6 @@ const Navbar = () => {
   const [active, setActive] = useState(pathname.length > 1 ? pathname.slice(1) : "mohit");
   const links = ["mohit", "projects", "social"];
   return (
-    // create a navbar with about, projects, contact, social, resume
-    <>
     <nav className="w-full flex md:space-x-6 justify-center pb-2 mx-auto relative nunitoRegular">
       {links.map((link) => (
         <Link
@@ -29,7 +27,6 @@ const Navbar = () => {
         </Link>
       ))}
     </nav>
-    </>
   )
 }
 
