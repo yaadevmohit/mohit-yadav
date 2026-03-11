@@ -14,13 +14,13 @@ const Hero = () => {
             <h2
               className="text-2xl text-red-600 text-left md:text-3xl w-full mb-2 nunitoBold" 
             >
-             Data Engineer based in Toronto  
+             Full-Stack Developer based in Toronto  
             </h2>
             <hr />
             <p 
               className="text-lg  text-left md:mx-2 md:my-4 p-4 customYellowBgRing nunitoRegular"
             >
-            Data Integration Specialist with 5 years of experience designing and implementing robust ETL/ELT pipelines. Proficient in optimizing data workflows, ensuring data integrity, and managing high-volume migrations across cloud and on-premises environments. Proven track record of reducing processing times and collaborating with cross-functional teams to deliver clean, structured data for business intelligence and advanced analytics.
+              I am a Full-Stack Developer specializing in building dynamic web applications with React, Express, and TypeScript. My expertise lies in creating responsive user interfaces and robust backend systems that scale effectively. With a strong command of SQL, I design efficient database schemas to support data-driven applications. I am passionate about writing clean, maintainable code and leveraging modern tools to solve complex problems. Constantly exploring new technologies, I strive to deliver high-quality solutions that enhance user experience. From concept to deployment, I am dedicated to crafting software that makes a difference.
             </p>
         </div>
     </main>
