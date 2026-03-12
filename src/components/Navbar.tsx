@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 const Navbar = () => {
   const {pathname} = useLocation()
   const [active, setActive] = useState(pathname.length > 1 ? pathname.slice(1) : "mohit");
-  const links = ["mohit", "projects", "social"];
+  const links = ["mohit", "projects"];
   return (
     <nav className="w-full flex md:space-x-6 justify-center pb-2 mx-auto relative nunitoRegular">
       {links.map((link) => (

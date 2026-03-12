@@ -34,8 +34,12 @@ body, img {
     @apply ring-[#ffc300] ring-2 bg-[#ffd60a] shadow-lg shadow-amber-500 rounded-lg;
   }
 
+  .customOrangeRing {
+    @apply shadow-lg shadow-red-500 rounded-lg;
+  }
+
   .customBlueRing {
-    @apply ring-blue-700 ring-2 shadow-md shadow-blue-500 rounded-md;
+    @apply ring-blue-700 ring-3 shadow-md shadow-blue-500 rounded-md;
   }
 
   .skillTagOne {

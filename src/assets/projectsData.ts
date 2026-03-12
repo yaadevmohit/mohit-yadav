@@ -16,8 +16,8 @@ export default
         {
             name: "Modern Form",
             img: formImg,
-            description: "Four steps form done as part of frontend mentor challanges. Uses prop drilling to pass data from all the different states of the form.",
-            skills: ["react", "typescript", "HTML", "css"],
+            description: "Four steps form mockup created using react and typescript. Effecient state management and input error handling were implemented. Form design is fully responsive with mobile-first approach",
+            skills: ["react", "typescript", "html", "css"],
             github: "https://github.com/yaadevmohit/modern-form",
             live: "https://multi-step-form-mohit.vercel.app/"
         }
