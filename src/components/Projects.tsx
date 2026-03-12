@@ -3,7 +3,7 @@ import Project from "./Project"
 export default function Projects() {
 
     return(
-        <div className="flex justify-center m-12 nunitoRegular">
+        <div className="flex justify-center my-12 nunitoRegular w-full">
             {projectsData.map(data => <Project {...data}/>)}
         </div>
     )

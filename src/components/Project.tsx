@@ -6,14 +6,19 @@ export default function Project(props: projectDetails) {
     
     return(
         <div 
-            className="flex 
+            className="
+            flex 
             flex-col gap-2 
-            max-w-90 rounded-2xl 
+            w-full
+            md:max-w-90 
+            rounded-2xl 
             text-left bg-[#F03603] 
             text-white overflow-hidden
             hover:shadow-lg hover:shadow-red-500
-            transition-shadow duration-200">
-            <div className="group relative h-64 w-96 overflow-hidden">
+            transition-shadow duration-200
+            
+            ">
+            <div className="group relative h-64 overflow-hidden">
                 <img 
                     src={props.img} 
                     alt={`${props.name} image`}
@@ -22,7 +27,7 @@ export default function Project(props: projectDetails) {
                 <div className="absolute inset-0 group-hover:bg-black/20 transition-colors duration-500"></div>
             </div>
             <div className="flex flex-col gap-3 px-2 pb-2">
-            <ul className="flex gap-2 mt-2 pl-2">
+            <ul className="flex gap-2 mt-2 pl-2 flex-wrap   ">
                 {props.skills.map(skill => {
                     const randomTag = getRandomClass(skillsClassList)
                     return (<li className={`${randomTag} px-2 py-1 customBlueRing text-black`}>{skill}</li>)
