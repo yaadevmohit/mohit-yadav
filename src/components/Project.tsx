@@ -3,7 +3,6 @@ import { getRandomClass } from "../utils/utils"
 import { skillsClassList } from "../assets/projectsData"
 export default function Project(props: projectDetails) {
 
-    
     return(
         <div 
             className="
@@ -16,15 +15,24 @@ export default function Project(props: projectDetails) {
             text-white overflow-hidden
             hover:shadow-lg hover:shadow-red-500
             transition-shadow duration-200
-            
-            ">
+            "
+        >
             <div className="group relative h-64 overflow-hidden">
                 <img 
                     src={props.img} 
                     alt={`${props.name} image`}
-                    className="h-full w-full object-cover transition-transform duration-800 ease-in-out group-hover:scale-105"
+                    className="h-full 
+                        w-full object-cover 
+                        transition-transform 
+                        duration-800 ease-in-out 
+                        group-hover:scale-105"
                 />
-                <div className="absolute inset-0 group-hover:bg-black/20 transition-colors duration-500"></div>
+                <div 
+                    className="absolute 
+                    inset-0 group-hover:bg-black/40 
+                    transition-colors duration-500"
+                >
+                </div>
             </div>
             <div className="flex flex-col gap-3 px-2 pb-2">
             <ul className="flex gap-4 mt-2 pl-2">
@@ -38,9 +46,15 @@ export default function Project(props: projectDetails) {
             <p className="text-md pl-2">
                 {props.description}
             </p>
-            <ul className="flex mx-auto space-x-3 nunitoBold text-md">
-              <li className="my-0 underline hover:scale-110"><a href={props.github} target="_blank">github</a></li>
-              <li className="my-0 underline hover:scale-110"><a href={props.live}>live</a></li>
+            <ul 
+                className="flex mx-auto space-x-3 nunitoBold text-md"
+            >
+              <li className="my-0 underline hover:scale-110">
+                <a href={props.github} target="_blank">github</a>
+              </li>
+              <li className="my-0 underline hover:scale-110">
+                <a href={props.live} target="_blank">live</a>
+              </li>
             </ul>
             </div>
         </div>
