@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <main className="w-full my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 md:bg-gray-200 rounded-xl nunitoRegular mb-9">
-        <img src="./IMG_1368.jpeg" className="md:w-[400px] object-contain grayscale-75 md:h-full rounded-xl" alt="Mohit Yadav in sunglasses" />
+        <img src="./IMG_1368.jpeg" className="md:w-[400px] object-contain md:h-full rounded-xl" alt="Mohit Yadav in sunglasses" />
         <div className="flex flex-col md:p-4 md:mx-4 m-w-3xl gap-3">
             <h1 
               className="text-4xl text-left text-[#003566] md:text-6xl font-bold w-full nunitoBlack"
