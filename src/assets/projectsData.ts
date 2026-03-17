@@ -16,7 +16,7 @@ export default
         {
             name: "Modern Form",
             img: formImg,
-            description: "Four-step form mockup created using react and typescript. Effecient state management and input error handling were implemented. Form design is fully responsive with mobile-first approach",
+            description: "A multi-step form built with React and TypeScript. Includes input validation, error handling, and a fully responsive mobile-first layout.",
             skills: ["react", "typescript", "html", "css"],
             github: "https://github.com/yaadevmohit/modern-form",
             live: "https://multi-step-form-mohit.vercel.app/"

@@ -2,7 +2,7 @@
 // border-[#003566]
 const Hero = () => {
   return (
-    <main className="w-full my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 bg-gray-50 md:bg-gray-200 rounded-xl nunitoRegular">
+    <main className="w-full my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 md:bg-gray-200 rounded-xl nunitoRegular mb-9">
         <img src="./IMG_1368.jpeg" className="md:w-[400px] object-contain grayscale-75 md:h-full rounded-xl" alt="Mohit Yadav in sunglasses" />
         <div className="flex flex-col md:p-4 md:mx-4 m-w-3xl gap-3">
             <h1 
@@ -18,10 +18,11 @@ const Hero = () => {
             </h2>
             <hr />
             <p 
-              className="text-lg  text-left md:mx-2 md:my-4 p-4 customYellowBgRing nunitoRegular"
+              className="text-lg text-left md:mx-1 md:mb-4  rounded-xl nunitoRegular"
             >
-              I am a Full-Stack Developer specializing in building dynamic web applications with React, Express, and TypeScript. My expertise lies in creating responsive user interfaces and robust backend systems that scale effectively. With a strong command of SQL, I design efficient database schemas to support data-driven applications. I am passionate about writing clean, maintainable code and leveraging modern tools to solve complex problems. Constantly exploring new technologies, I strive to deliver high-quality solutions that enhance user experience. From concept to deployment, I am dedicated to crafting software that makes a difference.
+              A full-stack developer focused on building clean web applications with React and TypeScript, with Express on the backend. Currently open to new opportunities and deepening my backend knowledge. If you have a project in mind, reach out.
             </p>
+            <hr />
             <a 
               href="mailto:mohityadav530@gmail.com" 
               target="_blank" 

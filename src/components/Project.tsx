@@ -1,6 +1,4 @@
 import { type projectDetails } from "../assets/projectsData"
-import { getRandomClass } from "../utils/utils"
-import { skillsClassList } from "../assets/projectsData"
 export default function Project(props: projectDetails) {
 
     return(
@@ -35,10 +33,9 @@ export default function Project(props: projectDetails) {
                 </div>
             </div>
             <div className="flex flex-col gap-3 px-2 pb-2">
-            <ul className="flex gap-4 mt-2 pl-2">
+            <ul className="flex gap-2 mt-2 pl-2">
                 {props.skills.map(skill => {
-                    const randomTag = getRandomClass(skillsClassList)
-                    return (<li className={`${randomTag} px-2 py-1 customBlueRing text-black`}>{skill}</li>)
+                    return (<li className={`px-2 py-1 text-white bg-black rounded`}>#{skill}</li>)
                 })}
             </ul>
             <h2 className="nunitoBold text text-2xl pl-2">{props.name}</h2>
