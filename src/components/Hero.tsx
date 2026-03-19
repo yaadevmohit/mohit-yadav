@@ -20,7 +20,7 @@ const Hero = () => {
             <p 
               className="text-lg text-left md:mx-1 md:mb-4  rounded-xl nunitoRegular"
             >
-              A full-stack developer focused on building clean web applications with React and TypeScript, with Express on the backend. Currently open to new opportunities and deepening my backend knowledge. If you have a project in mind, reach out.
+              A full-stack developer focused on building clean web applications with React and TypeScript, with Express on the backend. Currently open to new opportunities. If you have a project in mind, reach out.
             </p>
             <hr />
             <a 
