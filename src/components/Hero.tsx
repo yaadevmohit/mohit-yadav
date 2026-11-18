@@ -1,36 +1,35 @@
 
-// border-[#003566]
 const Hero = () => {
   return (
-    <main className="w-full my-3 flex flex-col lg:flex-row items-center gap-4 md:p-4 md:bg-gray-200 rounded-xl nunitoRegular mb-9">
+    <main className="w-full mt-12 flex flex-col lg:flex-row items-center gap-4 md:p-4 md:bg-gray-200 rounded-xl font-normal mb-16">
         <img src="./IMG_1369.JPG" className="md:w-[400px] object-contain md:h-full rounded-xl" alt="Mohit Yadav in sunglasses" />
         <div className="flex flex-col md:p-4 md:mx-4 m-w-3xl gap-3">
-            <h1 
-              className="text-4xl text-left text-[#003566] md:text-6xl font-bold w-full nunitoBlack"
+            <h1
+              className="text-4xl text-left text-brand-blue md:text-6xl font-bold w-full"
             >
               Hi, I'm Mohit Yadav
             </h1>
-            
+
             <h2
-              className="text-2xl text-red-600 text-left md:text-3xl w-full mb-2 nunitoBold" 
+              className="text-2xl text-red-600 text-left md:text-3xl w-full mb-2 font-bold"
             >
-             Full-Stack Developer based in Toronto  
+             Full-Stack Developer based in Toronto
             </h2>
             <hr />
-            <p 
-              className="text-lg text-left md:mx-1 md:mb-4  rounded-xl nunitoRegular"
+            <p
+              className="text-lg text-left md:mx-1 md:mb-4  rounded-xl font-normal"
             >
               A full-stack developer focused on building clean web applications with React and TypeScript, with Express on the backend. Currently open to new opportunities. If you have a project in mind, reach out.
             </p>
             <hr />
-            <a 
-              href="mailto:mohityadav530@gmail.com" 
-              target="_blank" 
-              className="group flex gap-2 justify-center 
-                       bg-black w-fit mx-auto 
-                       text-white px-4 py-3 rounded-2xl 
+            <a
+              href="mailto:mohityadav530@gmail.com"
+              target="_blank"
+              className="group flex gap-2 justify-center
+                       bg-black w-fit mx-auto
+                       text-white px-4 py-3 rounded-2xl
                        cursor-pointer
-                       hover:bg-black/80 
+                       hover:bg-black/80
                        "
               >
                 Get in touch now
@@ -39,7 +38,7 @@ const Hero = () => {
                   <span>&#8594;</span>
                   <span>&#8594;</span>
                 </div>
-              </div> 
+              </div>
             </a>
       </div>
     </main>

@@ -1,13 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", sans-serif;
+  --color-brand-blue: #003566;
+  --color-project-orange: #f03603;
+  --color-highlight: #ffd60a;
+  --color-highlight-ring: #ffc300;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-sans);
+  font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: black;
   background-color: white;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,66 +25,21 @@
 body, img {
   margin: 0;
   padding: 0;
+}
+
+img {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
 @layer components {
-
-  .navbarLinks {
-    @apply text-lg text-gray-800 hover:cursor-pointer;
+  .navbar-highlight {
+    @apply ring-highlight-ring ring-2 bg-highlight shadow-lg shadow-amber-500 rounded-lg;
   }
-
-  .navbarLinks:hover, .navbarLinks:active {
-    @apply text-blue-900 underline scale-115 transition-all duration-200;
-  }
-
-  .customYellowBgRing {
-    @apply ring-[#ffc300] ring-2 bg-[#ffd60a] shadow-lg shadow-amber-500 rounded-lg;
-  }
-
-  .customOrangeRing {
-    @apply shadow-lg shadow-red-500 rounded-lg;
-  }
-
-  .customBlueRing {
-    @apply ring-blue-700 ring-3 shadow-md shadow-blue-500 rounded-md;
-  }
-
-  .skillTagOne {
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-  }
-
-  .skillTagTwo {
-    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-  }
-
-  .skillTagThree {
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
-  }
-
-  .skillTagFour {
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-  }
-
-  .nunitoRegular {
-  font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  }
-
-  .nunitoBold  {
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .nunitoBlack {
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-  }
-
 }

@@ -1,29 +1,32 @@
 import {motion} from 'framer-motion'
-import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
+const links = [
+  { label: 'mohit', to: '/' },
+  { label: 'projects', to: '/projects' },
+];
 
 const Navbar = () => {
-  const {pathname} = useLocation()
-  const [active, setActive] = useState(pathname.length > 1 ? pathname.slice(1) : "mohit");
-  const links = ["mohit", "projects"];
   return (
-    <nav className="w-full flex md:space-x-6 justify-center pb-2 mx-auto relative nunitoRegular">
-      {links.map((link) => (
-        <Link
-          key={link}
-          to={link === "mohit" ? "/" : `/${link}`}
-          onClick={() => setActive(link)}
-          className="relative px-4 py-2 navBarLinks cursor-pointer"
+    <nav className="w-full flex md:space-x-6 justify-center pb-2 mx-auto relative font-normal">
+      {links.map(({ label, to }) => (
+        <NavLink
+          key={to}
+          to={to}
+          end={to === '/'}
+          className="relative px-4 py-2 cursor-pointer"
         >
-          {active === link && (
+          {({ isActive }) => <>
+          {isActive && (
             <motion.span
               layoutId="active-bg"
-              className="absolute inset-0 customYellowBgRing"
+              className="absolute inset-0 navbar-highlight"
               transition={{ type: "spring", stiffness: 500, damping: 30 }}
             ></motion.span>
           )}
-          <span className={`relative z-10 ${active === link && `text-[#003566]`}`}>{link}</span>
-        </Link>
+          <span className={`relative z-10 ${isActive ? 'text-brand-blue' : ''}`}>{label}</span>
+          </>}
+        </NavLink>
       ))}
     </nav>
   )
